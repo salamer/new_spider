@@ -26,5 +26,7 @@ class FortuneSpider(Spider):
 		item['num']=[n for n in num]
 
 		yield item 
-
-		print name
+		
+		for i in name:
+			the_name=unicode(i)
+			print i
